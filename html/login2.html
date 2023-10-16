@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NerdHub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    <link rel='stylesheet' href='/css/bootstrap.css'>
+</head>
+
+<body class="bg-dark overflow-hidden">
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+
+        <div class="container">
+            <img src="/img/favicon_transparent_32x32.png" alt="60px">
+            <a class="navbar-brand text-success" href="#"> <strong>NerdHub</strong></a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="cadastro.html">Cadastre-se</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sobre nós</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Dúvidas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="row">
+            <div class="container-fluid text-white vh-100  ">
+
+                <div class="row h-100 justify-content-center align-items-center ">
+
+                    <div class="col-md-6">
+
+                        <h1>Seja bem-vindo a <strong class="text-success">NerdHub!</strong></h1>
+                        <h5 class="text-successs">Aumente o nível de sua vida social no NerdHub!</h5>
+                        <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>Download </button>
+                        <button type="button" class="btn btn-outline-light btn-lg"><i
+                                class="fab fa-google-play"></i>Download</button>
+                        <!-- <img src="/img/logo png (2).png" alt="Logotipo" class="img-fluid"> -->
+                    </div>
+
+                    <div style="max-width: 400px; background-color: #ffffff;" class="col w-100 py-5 px-4 rounded ">
+
+                        <form action="">
+                            <h3 class="text-center text-black">Login</h3>
+                            <p class="text-center text-black">Acesse com o seu email e senha</p>
+                            <div class="form-group ">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text me-2">
+                                            <span class="fa fa-envelope"></span>
+                                        </span>
+                                    </div>
+                                    <input type="email" placeholder="Email " class="form-control" required name="email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="lock input-group-text me-2">
+                                            <span class="fa fa-lock"></span>
+                                        </span>
+                                    </div>
+                                    <input type="password" id="showPassword" placeholder="Senha" class="form-control"
+                                        required name="password">
+                                </div>
+                            </div>
+                            <div class="form group text-black ">
+                                <label for="" class="from-check-label">
+                                    <input class="mr-2 me-2" onclick="myFunction()" type="checkbox">Lembrar de mim
+                                </label>
+                            </div>
+                            <div class="d-flex justify-content-center text-center mt-4 pt-2">
+                                <a href="#!" class="text-black"><i class="fab fa-facebook-f fa-lg mx-4 px-2"></i></a>                
+                                <a href="#!" class="text-black"><i class="fab fa-google fa-lg"></i></a>
+                            </div>
+
+                            <div class="form-group mt-4 text-center">
+                                <a href="">Esqueceu a senha ?</a>
+                            </div>
+
+                            <div class="form-group">
+                                <a class="btn btn-primary w-100 text-white" href="home.html" role="button">Entrar</a>
+                                <div class="row background-color-white">
+                                    <div class="col-md-12">
+                                    </div>
+
+                                </div>
+
+                        </form>
+                        <div class="text-center text-black"> Ainda não possui uma conta ? <a
+                                href="cadastro.html">CriarConta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </header>
+
+    <footer class=" fixed-bottom text-white bg-success ">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-12 col-md-4 text-center text-md-left ">
+                    &copy; 2023 - NerdHub
+
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-left ">
+                    <a href="policeprivate.html" class="nav-link">Politica de Privacidade</a>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-left ">
+                    <a href="termos.html" class="nav-link">Termos</a>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <script src='/javascript/popper.js'></script>
+    <script src='/javascript/bootstrap.js'></script>
+</body>
+
+</html>

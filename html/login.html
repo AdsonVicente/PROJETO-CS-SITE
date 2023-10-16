@@ -5,31 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeekHub</title>
+    <title>NerdHub</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
     <link rel='stylesheet' href='/css/bootstrap.css'>
     <link rel='stylesheet' href='/css/login.css'>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+       
+<!-- <video id="background-video" autoplay loop muted poster="">
+    <source src="https://v.ftcdn.net/03/66/67/39/700_F_366673961_9aht6IeF2Lgu0S9qNGuk5IbmqMIuFbZE_ST.mp4" type="video/mp4">
+    </video> -->
+    <style>
+        /* Estilo para telas pequenas (exemplo: <576px) */
+        @media (max-width: 575.98px) {
+          .navbar {
+            background-color:rgb(199, 75, 75); 
+          }
+        }
+      </style>
+      
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light" >
+        
         <div class="container">
-            <a class="navbar-brand text-white" href="#">NerdHub</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand text-white" href="#"> <strong>NerdHub</strong></a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon "></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar1">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+                        <a class="nav-link text-white" href="cadastro.html">Cadastre-se</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nós</a>
+                        <a class="nav-link text-white" href="#">Sobre nós</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav mb-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Dúvidas</a>
+                        <a class="nav-link text-white" href="#">Dúvidas</a>
                     </li>
                 </ul>
             </div>
@@ -100,8 +114,8 @@
                             </div>
 
                     </form>
-                    <div class="text-center text-black"> Ainda não possui uma conta ? <a href="cadastro.html">Criar
-                            Conta</a>
+                    <div class="text-center text-black"> Ainda não possui uma conta ? <a
+                            href="cadastro.html">CriarConta</a>
                     </div>
                 </div>
             </div>
@@ -110,30 +124,25 @@
     </div>
 
 
-    <div class="container ">
-        <footer class="py-3 my-4 ">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
-                <li class="nav-item ">
-                    <a href="" class="nav-link px-2 text-white ">Serviços</a>
-                </li>
-                <li class="nav-item">
-                    <a href="policeprivate.html" class="nav-link px-2 text-white">Politica de privacidade</a>
-                </li>
-                <li class="nav-item">
-                    <a href="termos.html" class="nav-link px-2 text-white">Termos</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link px-2text-white">Ajuda</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link px-2text-white">Sobre</a>
-                </li>
-            </ul>
-            <p class="text-center text-white"> NerdHub @2023</p>
-        </footer>
-    </div>
+
+    <footer class="border-top fixed-bottom text-muted bg-light">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-12 col-md-4 text-center text-md-left ">
+                    &copy; 2023 - NerdHub
+
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-left ">
+                    <a href="" class="nav-link">Politica de Privacidade</a>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-left ">
+                    <a href="" class="nav-link">Termos</a>
+                </div>
 
 
+            </div>
+        </div>
+    </footer>
 
 
 
